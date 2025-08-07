@@ -276,14 +276,33 @@ exit $exit_code
 - **Memory usage**: ~10-50MB during execution
 - **Report generation**: ~500KB total
 
-## Contributing
+## ⚠️ IMPORTANT: Current Framework Limitation
 
-When adding new tests:
-1. Focus on edge cases and error conditions
-2. Use descriptive test names  
-3. Document expected failures
-4. Keep tests focused and specific
-5. Update documentation for new categories
+**This testing framework currently uses MOCK CLASSES instead of the actual Bootgen source code.**
+
+### The Missing Link
+- **Real Bootgen Source**: Located in `../common/src/main.cpp`, `../common/src/options.cpp`, etc.
+- **Current Tests**: Use mock implementations in `unit_tests/mock_classes.h`
+- **Missing**: Direct integration with actual Bootgen classes (`Options`, `BIF_File`, `BootGenApp`)
+
+### To Test Real Bootgen Code
+```bash
+# Current structure tests mocks - NOT the real code
+tests/unit_tests/mock_classes.h    # Mock Options, MockBIF_File
+tests/unit_tests/test_*.cpp        # Tests using mocks
+
+# Real Bootgen source code (NOT currently tested)
+common/src/main.cpp                # Real BootGenApp class
+common/src/options.cpp             # Real Options class  
+common/include/options.h           # Real Options header
+common/src/bifoptions.cpp          # Real BIF_File class
+```
+
+## Next Steps for Real Integration
+
+1. **Phase 1 (Current)**: Mock-based testing framework ✅
+2. **Phase 2 (Needed)**: Integration with real Bootgen source classes
+3. **Phase 3 (Future)**: Full integration testing with actual BIF files and boot images
 
 ## Author
 
@@ -296,7 +315,7 @@ Licensed under the Apache License, Version 2.0. See the main Bootgen project for
 
 ---
 
-*Last updated: August 7, 2025*  
 *Framework version: 1.0*  
 *Total tests: 96+ individual tests across 6 categories*
+
 
