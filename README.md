@@ -287,7 +287,7 @@ When adding new tests:
 
 ## Author
 
-**Yugasri Dhaded**  
+**YugasriD**  
 GitHub: [@yugasrid](https://github.com/yugasrid)
 
 ## License
@@ -299,3 +299,4 @@ Licensed under the Apache License, Version 2.0. See the main Bootgen project for
 *Last updated: August 7, 2025*  
 *Framework version: 1.0*  
 *Total tests: 96+ individual tests across 6 categories*
+
