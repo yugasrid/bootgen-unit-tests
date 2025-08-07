@@ -1,0 +1,49 @@
+======================================
+BOOTGEN UNIT TEST REPORT
+======================================
+Generated: Thu Aug  7 04:34:27 2025
+Total Tests: 17
+Passed: 17
+Failed: 0
+Success Rate: 100.0%
+
+DETAILED TEST RESULTS:
+======================================
+Test: test_MainFunction_SuccessfulExecution
+  Status: PASSED
+  Duration: 0ms
+
+Test: test_MainFunction_CatchStdException
+  Status: PASSED
+  Duration: 0ms
+
+Test: test_MainFunction_CatchCharPointerException
+  Status: PASSED
+  Duration: 0ms
+
+Test: test_MainFunction_CatchUnknownException
+  Status: PASSED
+  Duration: 0ms
+
+Test: test_MainFunction_ExceptionReturnCodes
+  Status: PASSED
+  Duration: 0ms
+
+Test: test_ExceptionSafety_NestedTryCatch
+  Status: PASSED
+  Duration: 0ms
+
+Test: test_ExceptionSafety_MultipleExceptionTypes
+  Status: PASSED
+  Duration: 0ms
+
+Test: test_ExceptionSafety_ResourceCleanup
+  Status: PASSED
+  Duration: 0ms
+
+PERFORMANCE SUMMARY:
+======================================
+Total Execution Time: 0ms
+Average Test Time: 0ms
+Fastest Test: 0ms
+Slowest Test: 0ms

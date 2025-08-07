@@ -1,0 +1,17 @@
+======================================
+BOOTGEN UNIT TESTS - SUMMARY REPORT
+======================================
+Generated: Thu Aug  7 03:46:54 AM MDT 2025
+
+OVERALL RESULTS:
+===============
+Total Test Suites: 0
+Passed: 0
+Failed: 0
+Success Rate: %
+
+TEST SUITE DETAILS:
+==================
+
+INDIVIDUAL REPORTS:
+==================

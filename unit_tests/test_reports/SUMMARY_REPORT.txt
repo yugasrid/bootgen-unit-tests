@@ -1,0 +1,36 @@
+======================================
+BOOTGEN UNIT TESTS - SUMMARY REPORT
+======================================
+Generated: Thu Aug  7 04:34:27 AM MDT 2025
+
+OVERALL RESULTS:
+===============
+Total Test Suites: 6
+Passed: 5
+Failed: 1
+Success Rate: 83.3%
+
+DETAILED TEST RESULTS:
+=====================
+Total Individual Tests: 1629
+Individual Tests Passed: 1628
+Individual Tests Failed: 1
+Individual Success Rate: 99.9%
+
+TEST SUITE DETAILS:
+==================
+test_argument_parsing: PASSED
+test_basic_functionality: PASSED
+test_bif_file_processing: PASSED
+test_exception_handling: PASSED
+test_performance_memory: PASSED
+test_rigorous_bug_detection: FAILED
+
+INDIVIDUAL REPORTS:
+==================
+- argument_parsing_report.txt
+- basic_functionality_report.txt
+- bif_file_processing_report.txt
+- exception_handling_report.txt
+- performance_memory_report.txt
+- rigorous_bug_detection_report.txt

@@ -1,0 +1,37 @@
+======================================
+BOOTGEN UNIT TEST REPORT
+======================================
+Generated: Thu Aug  7 03:50:11 2025
+Total Tests: 10
+Passed: 10
+Failed: 0
+Success Rate: 100.0%
+
+DETAILED TEST RESULTS:
+======================================
+Test: test_BootGenApp_RunWithValidBifFile
+  Status: PASSED
+  Duration: 0ms
+
+Test: test_BootGenApp_RunWithEmptyBifFile
+  Status: PASSED
+  Duration: 0ms
+
+Test: test_BootGenApp_RunWithHelpArgument
+  Status: PASSED
+  Duration: 0ms
+
+Test: test_BootGenApp_RunWithMultipleArguments
+  Status: PASSED
+  Duration: 0ms
+
+Test: test_BootGenApp_WithMockOptions
+  Status: PASSED
+  Duration: 0ms
+
+PERFORMANCE SUMMARY:
+======================================
+Total Execution Time: 0ms
+Average Test Time: 0ms
+Fastest Test: 0ms
+Slowest Test: 0ms

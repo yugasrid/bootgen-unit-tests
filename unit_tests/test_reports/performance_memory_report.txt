@@ -1,0 +1,53 @@
+======================================
+BOOTGEN UNIT TEST REPORT
+======================================
+Generated: Thu Aug  7 04:34:26 2025
+Total Tests: 1511
+Passed: 1511
+Failed: 0
+Success Rate: 100.0%
+
+DETAILED TEST RESULTS:
+======================================
+Test: test_Performance_QuickExecution
+  Status: PASSED
+  Duration: 0ms
+
+Test: test_Performance_MultipleRuns
+  Status: PASSED
+  Duration: 0ms
+
+Test: test_Performance_ArgumentParsing
+  Status: PASSED
+  Duration: 0ms
+
+Test: test_Performance_BIFFileCreation
+  Status: PASSED
+  Duration: 0ms
+
+Test: test_Memory_NoMemoryLeaks
+  Status: PASSED
+  Duration: 0ms
+
+Test: test_Memory_LargeArgumentLists
+  Status: PASSED
+  Duration: 0ms
+
+Test: test_Memory_StringOperations
+  Status: PASSED
+  Duration: 9ms
+
+Test: test_Stress_RapidFileProcessing
+  Status: PASSED
+  Duration: 4ms
+
+Test: test_Stress_ExceptionHandling
+  Status: PASSED
+  Duration: 0ms
+
+PERFORMANCE SUMMARY:
+======================================
+Total Execution Time: 13ms
+Average Test Time: 1ms
+Fastest Test: 0ms
+Slowest Test: 9ms

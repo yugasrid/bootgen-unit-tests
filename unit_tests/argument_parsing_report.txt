@@ -1,0 +1,53 @@
+======================================
+BOOTGEN UNIT TEST REPORT
+======================================
+Generated: Thu Aug  7 04:34:27 2025
+Total Tests: 39
+Passed: 39
+Failed: 0
+Success Rate: 100.0%
+
+DETAILED TEST RESULTS:
+======================================
+Test: test_ParseArgs_NoArguments
+  Status: PASSED
+  Duration: 0ms
+
+Test: test_ParseArgs_ImageArgument
+  Status: PASSED
+  Duration: 0ms
+
+Test: test_ParseArgs_OutputArgument
+  Status: PASSED
+  Duration: 0ms
+
+Test: test_ParseArgs_ArchitectureArgument
+  Status: PASSED
+  Duration: 0ms
+
+Test: test_ParseArgs_HelpArgument
+  Status: PASSED
+  Duration: 0ms
+
+Test: test_ParseArgs_VerboseArgument
+  Status: PASSED
+  Duration: 0ms
+
+Test: test_ParseArgs_AllArguments
+  Status: PASSED
+  Duration: 0ms
+
+Test: test_ParseArgs_Reset
+  Status: PASSED
+  Duration: 0ms
+
+Test: test_ProcessMethods
+  Status: PASSED
+  Duration: 0ms
+
+PERFORMANCE SUMMARY:
+======================================
+Total Execution Time: 0ms
+Average Test Time: 0ms
+Fastest Test: 0ms
+Slowest Test: 0ms
